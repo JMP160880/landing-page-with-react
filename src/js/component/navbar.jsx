@@ -18,13 +18,13 @@ const MyNavbar= () => {
           <a className="nav-link active text-light" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-light" href="#">About</a>
+          <a className="nav-link text-light text-muted" href="#">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-light" href="#">Services</a>
+          <a className="nav-link text-light text-muted" href="#">Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-light" href="#">Contact</a>
+          <a className="nav-link text-light text-muted" href="#">Contact</a>
         </li>
       </ul>
     </div>
