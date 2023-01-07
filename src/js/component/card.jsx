@@ -44,9 +44,8 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="card-footer text-center font-monospace bg-dark text-light">
-        <p>Copiright   Your Website 2019</p>
-        <i class="fa-regular fa-copyright"></i>
+      <div className="card-footer text-center font-monospace bg-dark text-light pt-3">
+        <p>Copyright   Your Website 2019</p>
       </div>
     </div>
         
