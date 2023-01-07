@@ -9,14 +9,7 @@ const Home = () => {
 		<>
 		<MyNavbar/>
 		<Jumbo/>
-		<div>
-			<Card/>
-			<Card/>
-			<Card/>
-			<Card/>
-		</div>
-		
-		
+		<Card/>
 		</>
 
 	);

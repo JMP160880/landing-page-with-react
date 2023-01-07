@@ -1,14 +1,55 @@
 import React from "react";
-//style={{marginRight: spacing + 'em'}}
+
 const Card = () => {
     return (
-        <div className="card text-center" style={{width: "18rem"}}>
-  <div className="card-body">
-    <h5 className="card-title">Special title treatment</h5>
-    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+      <div className="row">
+      <div className="col-sm-2 display-none"></div>  
+      <div className="col-sm-2">
+        <div className="card text-center">
+          <img src="https://cdn.pixabay.com/photo/2016/04/02/05/28/icon-1302201__340.png" className="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi quod autem.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-2">
+        <div className="card text-center">
+          <img src="https://cdn.pixabay.com/photo/2016/04/02/05/28/icon-1302201__340.png" className="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi quod autem.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-2">
+        <div className="card text-center">
+          <img src="https://cdn.pixabay.com/photo/2016/04/02/05/28/icon-1302201__340.png" className="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi quod autem.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-2">
+        <div className="card text-center">
+          <img src="https://cdn.pixabay.com/photo/2016/04/02/05/28/icon-1302201__340.png" className="card-img-top" alt="..."/>
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi quod autem.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div className="card-footer text-center font-monospace bg-dark text-light">
+        <p>Copiright   Your Website 2019</p>
+        <i class="fa-regular fa-copyright"></i>
+      </div>
+    </div>
+        
     )
 }
 
